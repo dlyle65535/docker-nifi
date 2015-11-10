@@ -19,7 +19,7 @@ You can launch the image using the docker command line
 docker run -d --name=nifi \
 -p 8080:8080 -p 8081:8081 \
 -v /tmp/output:/output \
-tkurc/nifi
+dlyle/nifi
 ```
 
 You can view the startup progress using docker logs command
